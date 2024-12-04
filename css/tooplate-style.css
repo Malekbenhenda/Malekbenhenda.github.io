@@ -81,7 +81,7 @@ b, strong {
 }
 
 .custom-btn {
-  background: #eee;
+  background: #bda8a8;
   color: #5b5b5b;
   font-weight: bold;
   border-radius: 50px;
@@ -602,20 +602,13 @@ td{
 caption {
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 10px; /* Ajoute un espacement sous le caption */
+  margin-bottom: 10px; 
   color: darkblue;
   text-align: center;
 }
-.M1 img:hover{
-     width:60px;
-     height:60px;
-}
-.M2:hover{
-width:60px;
-height:60px;
-  
-  
-}
+
+
+
 .M1 img {
   animation: fadeIn 3s ease-in-out infinite;
 }
@@ -635,57 +628,8 @@ height:60px;
   letter-spacing: 1px;
   color:rgb(77, 77, 162);
 }
-
-
-.star-rating {
-  text-align: center;
-  font-family: Arial, sans-serif;
-  color: #333;
+.M2 {
+  font-family: "Font Awesome 5 Free";
 }
 
-#stars {
-  display: inline-block;
-  cursor: pointer;
-}
-
-.star {
-  font-size: 30px;
-  color: grey;
-  transition: color 0.2s ease-in-out;
-}
-
-.star:hover,
-.star:hover ~ .star {
-  color: gold;
-}
-
-.star.active {
-  color: gold;
-}
-
-#rating-output {
-  margin-top: 10px;
-  font-size: 16px;
-  color: #555;
-}
-#submit-rating {
-  margin-top: 15px;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #3498db;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-#submit-rating:disabled {
-  background-color: #95a5a6;
-  cursor: not-allowed;
-}
-
-#submit-rating:hover:not(:disabled) {
-  background-color: #2980b9;
-}
 
